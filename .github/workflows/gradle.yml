@@ -39,7 +39,7 @@ jobs:
 
     - name: Build with Gradle
 
-      run: ./gradlew
+      run: ./gradlew build bukkit
 
     - name: Archive artifacts (GriefDefender)
 
