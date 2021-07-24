@@ -39,7 +39,7 @@ jobs:
 
     - name: Build with Gradle
 
-      run: /gradle.bat
+      run: ./gradle/warpper
 
     - name: Archive artifacts (GriefDefender)
 
