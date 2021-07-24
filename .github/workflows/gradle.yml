@@ -38,16 +38,7 @@ jobs:
 
     - name: Wrap with Gradle
 
-      run: ./gradlew wrapper --gradle-version=7.1.1 --distribution-type=bin
-
-    - name: Dep with Gradle
-
-      run: ./gradlew dependencies
-
-    - name: Test with Gradle
-
-      run: ./gradlew test
-
+      run: ./gradlew wrapper --gradle-version=7.1.1 --distribution
     - name: Build with Gradle
 
       run: ./gradlew build
