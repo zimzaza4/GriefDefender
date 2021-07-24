@@ -51,6 +51,6 @@ jobs:
 
         name: GriefDefender
 
-        path: bukkit/target/GriefDefender.jar
+        path: bukkit/target/GriefDefender 1.5.10.jar
 
 
